@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import LOGOPRINTY from "./assets/images/LOGOPRINTY.svg";
+import PRINTYPLANET from "./assets/images/PRINTYPLANET.svg";
+import centralLogo from "./assets/images/centralLogo.png";
+import CADDIE from "./assets/images/CADDIE.svg";
+import MONTRE from "./assets/images/MONTRE.svg";
+import CLICK from "./assets/images/CLICK.svg";
+import LOCAL from "./assets/images/LOCAL.png";
+import CARROUSSEL1 from "./assets/images/carroussel.jpg";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./containers/Home";
+import Affiche from "./containers/Affiche";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/affiche" element={<Affiche />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 

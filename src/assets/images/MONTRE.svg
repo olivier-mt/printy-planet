@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 283.46 141.73" style="enable-background:new 0 0 283.46 141.73;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Futura-Bold';}
+	.st1{font-size:11.96px;}
+	.st2{fill:#FFF48C;}
+	.st3{font-size:25.024px;}
+	
+		.st4{clip-path:url(#SVGID_00000013913970411030478230000016833777946972017041_);fill:none;stroke:#010202;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{clip-path:url(#SVGID_00000013913970411030478230000016833777946972017041_);fill:#FFFFFF;}
+	.st6{fill:none;stroke:#010202;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<text transform="matrix(1 0 0 1.087 82.9758 90.605)" class="st0 st1">DANS LA JOURNÉE EN</text>
+<text transform="matrix(1 0 0 1.087 221.4831 90.605)" class="st2 st0 st3"> </text>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="40.72" y="39.18" width="201.48" height="63.54"/>
+	</defs>
+	<clipPath id="SVGID_00000008110220048742615150000004024903331316569015_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<path style="clip-path:url(#SVGID_00000008110220048742615150000004024903331316569015_);fill:none;stroke:#010202;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M66.57,101.82c-14.23-2.89-24.95-15.47-24.95-30.56c0-17.22,13.96-31.18,31.18-31.18c17.22,0,31.18,13.96,31.18,31.18
+		c0,0.49-0.01,0.98-0.03,1.46"/>
+	<path style="clip-path:url(#SVGID_00000008110220048742615150000004024903331316569015_);fill:#FFFFFF;" d="M75.53,68.53
+		c1.51,1.51,1.51,3.95,0,5.46c-1.51,1.51-3.95,1.51-5.46,0c-1.51-1.51-1.51-3.95,0-5.46"/>
+	
+		<path style="clip-path:url(#SVGID_00000008110220048742615150000004024903331316569015_);fill:none;stroke:#010202;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M75.53,68.53c1.51,1.51,1.51,3.95,0,5.46c-1.51,1.51-3.95,1.51-5.46,0c-1.51-1.51-1.51-3.95,0-5.46"/>
+</g>
+<line class="st6" x1="48.59" y1="71.26" x2="52.59" y2="71.26"/>
+<line class="st6" x1="72.8" y1="51.05" x2="72.8" y2="47.05"/>
+<path class="st6" d="M55.73,54.19l14.34,14.34 M85.36,58.7l-9.83,9.83"/>
+</svg>
