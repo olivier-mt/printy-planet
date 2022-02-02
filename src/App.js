@@ -13,15 +13,23 @@ import { Carousel } from "react-responsive-carousel";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./containers/Home";
 import Affiche from "./containers/Affiche";
+import React, { useState } from "react";
+import CartContext from "./CartContext.js";
 
 function App() {
+  const [cart, setCart] = useState([]);
+
+  const cartObj = { cart, setCart };
+
   return (
-    <Router>
-      <Routes>
-        <Route path="/affiche" element={<Affiche />} />
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
+    <CartContext.Provider value={cartObj}>
+      <Router>
+        <Routes>
+          <Route path="/affiche" element={<Affiche />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
+    </CartContext.Provider>
   );
 }
 

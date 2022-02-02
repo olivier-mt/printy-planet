@@ -1,4 +1,18 @@
+import React, { useState, useContext } from "react";
+import CartContext from "../CartContext";
+import NumbersBtn from "../components/NumbersBtn";
+
 const Affiche = () => {
+  const { cart, setCart } = useContext(CartContext);
+
+  console.log("cart ", cart);
+
+  const displayCart = () => {
+    return cart.map((obj, key) => {
+      return <p key={key}>{`${obj.type}*${obj.num} ${obj.price}€`}</p>;
+    });
+  };
+
   return (
     <>
       <p className="title">AFFICHES</p>
@@ -27,17 +41,24 @@ const Affiche = () => {
             </p>
           </div>
           <div className="choice-div">
-            <div className="choiceBtn">
+            <button
+              className="choiceBtn"
+              onClick={() => {
+                setCart("set");
+              }}
+            >
               <line>1 exemplaire</line> <line>19.20€ TTC</line>
-            </div>
+            </button>
             <div className="choiceBtn">
               <line>10 exemplaire</line> <line>108.00€ TTC</line>
             </div>
+
+            <NumbersBtn num={2} price={20} type={"Affiche(s)"} />
           </div>
         </div>
         <div>
           <p>right</p>
-          <p>2okok</p>
+          <p>{displayCart()}</p>
         </div>
       </div>
     </>
